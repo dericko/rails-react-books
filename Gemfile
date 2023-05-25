@@ -67,3 +67,9 @@ group :development do
   # gem "spring"
 end
 
+
+gem "rest-client", "~> 2.1"
+
+gem "json", "~> 2.6"
+
+gem "dotenv-rails", "~> 2.8", require: 'dotenv/rails-now'
