@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-// const BOOKS_ENDPOINT = `${process.env.REACT_APP_API_URL}/nyt_books`;
-const BOOKS_ENDPOINT = `http://localhost:3000/api/nyt_books`;
+const BOOKS_ENDPOINT = `${process.env.REACT_APP_API_URL}/nyt_books`;
 
 const Books = () => {
   const [books, setBooks] = useState([]);
