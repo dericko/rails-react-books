@@ -1,4 +1,15 @@
-.App {
-    background-color: aquamarine;
-    border: solid green 2px;
+.BooksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Book {
+    border: solid darkgray 2px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 300px;
 }
